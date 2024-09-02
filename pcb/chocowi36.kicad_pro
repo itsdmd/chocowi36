@@ -512,7 +512,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../case/chocowi36.step",
-      "svg": "",
+      "svg": "../case/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
