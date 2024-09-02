@@ -1,0 +1,3 @@
+[submodule "itsdmd.pretty"]
+	path = itsdmd.pretty
+	url = https://github.com/itsdmd/itsdmd.pretty
