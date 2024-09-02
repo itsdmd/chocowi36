@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -448,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "cc36-rounded.kicad_pro",
+    "filename": "chocowi36-rounded.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -514,8 +514,8 @@
       "plot": "gerber/rounded/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "../step/chocowi36-rounded.step",
+      "svg": "../img/",
       "vrml": ""
     },
     "page_layout_descr_file": ""

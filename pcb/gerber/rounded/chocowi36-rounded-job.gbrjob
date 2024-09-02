@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2024-09-02T16:48:55+07:00"
+    "CreationDate": "2024-09-02T19:06:31+07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "cc36-rounded",
-      "GUID": "63633336-2d72-46f7-956e-6465642e6b69",
+      "Name": "chocowi36-rounded",
+      "GUID": "63686f63-6f77-4693-9336-2d726f756e64",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 113.3592,
-      "Y": 88.6541
+      "X": 113.2028,
+      "Y": 88.436
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "cc36-rounded-F_Cu.gbr",
+      "Path": "chocowi36-rounded-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "cc36-rounded-B_Cu.gbr",
+      "Path": "chocowi36-rounded-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "cc36-rounded-F_Paste.gbr",
+      "Path": "chocowi36-rounded-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "cc36-rounded-B_Paste.gbr",
+      "Path": "chocowi36-rounded-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "cc36-rounded-F_Silkscreen.gbr",
+      "Path": "chocowi36-rounded-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "cc36-rounded-B_Silkscreen.gbr",
+      "Path": "chocowi36-rounded-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "cc36-rounded-F_Mask.gbr",
+      "Path": "chocowi36-rounded-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "cc36-rounded-B_Mask.gbr",
+      "Path": "chocowi36-rounded-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "cc36-rounded-Edge_Cuts.gbr",
+      "Path": "chocowi36-rounded-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

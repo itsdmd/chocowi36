@@ -4542,7 +4542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "itsdmd:MountingHole_1.6mm_M1.4"
+		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -4606,7 +4606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "itsdmd:MountingHole_1.6mm_M1.4"
+		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
 			(at 139.7 133.35 0)
 			(effects
 				(font
@@ -4670,7 +4670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "itsdmd:MountingHole_1.6mm_M1.4"
+		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
 			(at 139.7 114.3 0)
 			(effects
 				(font
@@ -5068,7 +5068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "itsdmd:MountingHole_1.6mm_M1.4"
+		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
 			(at 139.7 127 0)
 			(effects
 				(font
