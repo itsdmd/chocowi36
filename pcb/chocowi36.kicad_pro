@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/straight/",
+      "plot": "gerber/rounded/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../case/chocowi36.step",
