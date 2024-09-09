@@ -20,6 +20,12 @@ The case for the keyboard can be found here: [OnShape document](https://cad.onsh
 
 This case features a 5.5x2.1 DC power jack for connecting to a detachable Li-Ion battery enclosure. The provided enclosure is designed for storing a 21700 battery with a protection PCB attached to it. This enclosure can act as a tenting mechanism, or for locking the two keyboard halves in place when folded for travelling. Most parameters can be _slightly_ adjust without breaking the whole thing. The screw holes are 3.0mm in diameter (for housing M2 heat inserts), and default tolerance is 0.3-0.5mm.
 
+## Firmware
+
+ZMK shield definition of chocowi36 can be obtained [here](https://github.com/itsdmd/zmk-dongle/tree/N!N_v2/config/boards/shields/chocowi36). Please note that the definition files are written for the keyboard to be used with a third nice!nano as the central/dongle.
+
+The provided files should only act as the boilerplate, please adjust the configurations according to your personal needs and preferences. You can create your own repo using the [template](https://github.com/itsdmd/zmk-dongle) and make further modifications.
+
 ## Notes
 
 There are two versions of the PCB, one with [straight traces](./pcb/gerber/straight/straight.zip) and one with [curved traces](./pcb/gerber/rounded/rounded.zip). There are no major differences between the two, mostly just aesthetics.
