@@ -2,9 +2,10 @@
 
 > A 36-key, low profile, wireless, split keyboard. Derived from [davidphilipbarr/Choc-Spaced-Corne](https://github.com/davidphilipbarr/Choc-Spaced-Corne), with the original design based on [Foostan's Corne](https://github.com/foostan/crkbd).
 
-![chocowi36 PCB Top - JLCPCB render](img/pcb_fab_top.png)
-![chocowi36 PCB Bottom - JLCPCB render](img/pcb_fab_bot.png)
-![chocowi36 PCB - KiCad render](img/pcb_kicad.png)
+![Finished build](https://github.com/user-attachments/assets/0b6758be-0a33-4e4f-baad-4910bed4a0ec)
+
+<img src="img/pcb_fab_top.png" alt="chocowi36 PCB Top - JLCPCB render" style="width:33%; height:auto;"><img src="img/pcb_fab_bot.png" alt="chocowi36 PCB Bottom - JLCPCB render" style="width:33%; height:auto;"><img src="img/pcb_kicad.png" alt="chocowi36 PCB - KiCad render" style="width:33%; height:auto;">
+
 
 ## Changes
 
@@ -18,8 +19,9 @@
 
 The case for the keyboard can be found here: [OnShape document](https://cad.onshape.com/documents/46b39ce86a53def7590272f1/w/488db377576b09efc6e15f6f/e/8a81a5fcc0753b2088ec2435)
 
-![chocowi36 case](img/case_half.png)
-![chocowi36 case folded](img/case_folded.png)
+![Finished build - Folded](https://github.com/user-attachments/assets/2e86e142-ea0f-412a-9a74-7c528a0013fb)
+
+<img src="img/case_half.png" alt="chocowi36 Case - OnShape render" style="width:50%; height:auto;"><img src="img/case_folded.png" alt="chocowi36 Case Folded - OnShape render" style="width:50%; height:auto;">
 
 This case features a 5.5x2.1 DC power jack for connecting to a detachable Li-Ion battery enclosure. The provided enclosure is designed for storing a 21700 battery with a protection PCB attached to it. This enclosure can act as a tenting mechanism, or for locking the two keyboard halves in place when folded for travelling. Most parameters can be _slightly_ adjust without breaking the whole thing. The screw holes are 3.0mm in diameter (for housing M2 heat inserts), and default tolerance is 0.3-0.5mm.
 
