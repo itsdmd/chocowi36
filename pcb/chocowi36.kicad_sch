@@ -1204,6 +1204,24 @@
 		)
 	)
 	(junction
+		(at 154.94 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c62366-871e-4062-83f5-83bacf0353cc")
+	)
+	(junction
+		(at 162.56 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36761109-2e39-45d9-87a1-7b1f15feed47")
+	)
+	(junction
+		(at 144.78 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36a1bb7c-8cad-4e8b-9111-db9a953ef7ab")
+	)
+	(junction
 		(at 142.24 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1224,6 +1242,10 @@
 	(no_connect
 		(at 257.81 48.26)
 		(uuid "1ffa5f60-e456-466b-a692-380792489c90")
+	)
+	(no_connect
+		(at 175.26 91.44)
+		(uuid "333ec814-1576-40f4-854b-62b99c22e3c0")
 	)
 	(no_connect
 		(at 175.26 72.39)
@@ -1325,6 +1347,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 44.45) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca70368-8d76-45bd-8ce3-3c0e725d95e7")
+	)
+	(wire
+		(pts
 			(xy 142.24 55.88) (xy 144.78 55.88)
 		)
 		(stroke
@@ -1342,6 +1374,16 @@
 			(type default)
 		)
 		(uuid "a6cf3bc8-a67f-44a7-9d08-71a7f770025f")
+	)
+	(wire
+		(pts
+			(xy 154.94 44.45) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b835f6c8-b08f-47c5-bcfc-dc41d625adca")
 	)
 	(wire
 		(pts
@@ -1372,6 +1414,16 @@
 			(type default)
 		)
 		(uuid "f772f554-af01-4c43-a218-1bdcd2af8f58")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2b3472-9856-4db3-91e2-6e70a6f5322f")
 	)
 	(global_label "Switch19"
 		(shape input)
@@ -4293,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "itsdmd:SW-T_7.4x2.6-4pad-smd"
+		(property "Footprint" "itsdmd:SW-T_SPST_TL3342"
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -4774,6 +4826,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 175.26 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b250865a-c0e6-40f1-a1d6-d3c8a8b8dcfd")
+		(property "Reference" "#PWR02"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 179.07 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54871fc1-0cef-4bb4-a5db-a402f0dce708")
+		)
+		(instances
+			(project "chocowi36"
+				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 64.77 109.22 0)
 		(unit 1)
@@ -4848,7 +4966,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b70c6ae6-eb5e-4000-bf36-20de0ab3235f")
 		(property "Reference" "#PWR07"
 			(at 171.45 77.47 0)
@@ -4902,6 +5019,117 @@
 			(project "chocorne36-n!n"
 				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "itsdmd:SK12D07VG4")
+		(at 168.91 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c024f3fb-365f-43c9-95f4-d4c56a161334")
+		(property "Reference" "SW_POWER2"
+			(at 168.91 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 168.91 86.6394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:SW-S_MSK-12C02"
+			(at 168.91 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 126.238 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nSwitch Slide ON ON SPDT Side Slide 0.3A 30VDC PC Pins Bracket Mount/Through Hole Bulk\n"
+			(at 169.418 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SK12D07VG4/C%2526K/view-part/?ref=snap"
+			(at 168.91 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SK12D07VG4"
+			(at 208.534 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f966acf-0a55-4757-8e9f-b8e3bc62d600")
+		)
+		(pin "2"
+			(uuid "2493b5e5-a599-429f-81af-d8fa9eea08be")
+		)
+		(pin "COM"
+			(uuid "be5fe537-03cd-465f-a66c-9dbc7da2156e")
+		)
+		(instances
+			(project "chocowi36"
+				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
+					(reference "SW_POWER2")
 					(unit 1)
 				)
 			)
@@ -5035,6 +5263,73 @@
 			(project "chocorne36-n!n"
 				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e69d6d73-9479-4720-9b05-1f17c2439884")
+		(property "Reference" "SW_RST2"
+			(at 149.86 37.211 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 149.86 39.5224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "itsdmd:SW-T_SPST_TL3342"
+			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50c3ec1f-a1f6-4a1d-8c3a-48a855e2ee56")
+		)
+		(pin "2"
+			(uuid "08e7a4f4-7fe1-4d51-8b14-fd1e998a5abb")
+		)
+		(instances
+			(project "chocowi36"
+				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
+					(reference "SW_RST2")
 					(unit 1)
 				)
 			)

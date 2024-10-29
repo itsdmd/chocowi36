@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -182,6 +182,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -482,7 +483,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -499,10 +500,6 @@
       {
         "netclass": "Power",
         "pattern": "+BATT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "gnd"
       }
     ]
   },
@@ -511,11 +508,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/rounded/",
+      "plot": "gerber/straight/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../step/chocowi36-rounded.step",
-      "svg": "../img/",
+      "step": "../case/chocowi36.step",
+      "svg": "../case/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
