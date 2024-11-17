@@ -585,6 +585,141 @@
 				)
 			)
 		)
+		(symbol "itsdmd:TP4056_Module_Mini"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP4056_Module_Mini_0_1"
+				(rectangle
+					(start -6.35 2.54)
+					(end 6.35 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TP4056_Module_Mini_1_1"
+				(pin power_in line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "Bat+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "Bat-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "Load+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "Load-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "itsdmd:nice_nano"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1204,28 +1339,16 @@
 		)
 	)
 	(junction
-		(at 154.94 55.88)
+		(at 162.56 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27c62366-871e-4062-83f5-83bacf0353cc")
-	)
-	(junction
-		(at 162.56 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36761109-2e39-45d9-87a1-7b1f15feed47")
+		(uuid "0b140c59-9fcc-43d4-af0e-2bccbed166b6")
 	)
 	(junction
 		(at 144.78 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36a1bb7c-8cad-4e8b-9111-db9a953ef7ab")
-	)
-	(junction
-		(at 142.24 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53c6de39-c449-4dfe-84cf-4ceb5d56d517")
+		(uuid "6e8ae1a3-d70c-44ec-9123-fd7a45049927")
 	)
 	(junction
 		(at 226.06 45.72)
@@ -1234,10 +1357,34 @@
 		(uuid "b67f603a-ffd6-436c-8179-6e4bc00a8128")
 	)
 	(junction
+		(at 154.94 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84640ae-512b-4669-91e1-c856db4bd0b8")
+	)
+	(junction
+		(at 149.86 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc3c8658-1052-4695-867f-80c8c8004388")
+	)
+	(junction
 		(at 226.06 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6e98125-8d8c-4663-9a13-d12c1616c441")
+	)
+	(junction
+		(at 152.4 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7873f26-e46e-4693-abbd-bb24bccd8578")
+	)
+	(junction
+		(at 142.24 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc10901-64be-4021-8cbc-d4dc49d4d5f8")
 	)
 	(no_connect
 		(at 257.81 48.26)
@@ -1257,6 +1404,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 68.58) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00607a2d-9c79-4179-b236-f4054b5b4d55")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0902a2cf-6b3d-4ba1-bbf7-a021991e774c")
+	)
+	(wire
+		(pts
 			(xy 226.06 91.44) (xy 226.06 88.9)
 		)
 		(stroke
@@ -1267,16 +1434,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 139.7 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d848f4-2f4d-428c-b51e-ac2c369f1df4")
-	)
-	(wire
-		(pts
 			(xy 223.52 45.72) (xy 226.06 45.72)
 		)
 		(stroke
@@ -1284,6 +1441,26 @@
 			(type default)
 		)
 		(uuid "1c84a313-8716-43bb-af1e-4eef4b72e6b3")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d6ae60-00fd-4809-b757-ca1fbdd0be8f")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3318d6bc-fa25-4abe-ab0c-bc5009a99cc6")
 	)
 	(wire
 		(pts
@@ -1307,6 +1484,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 55.88) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa6aaae-fdbc-461a-a38a-fe16beb574a9")
+	)
+	(wire
+		(pts
 			(xy 227.33 91.44) (xy 226.06 91.44)
 		)
 		(stroke
@@ -1317,13 +1504,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 74.93) (xy 162.56 74.93)
+			(xy 147.32 76.2) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "495fdbcc-6e1e-43be-989f-0e7ef85294dc")
+		(uuid "50776252-30c4-4fd2-bb8c-ea99da0fdef0")
 	)
 	(wire
 		(pts
@@ -1337,13 +1524,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 142.24 74.93)
+			(xy 154.94 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "687055f4-1079-4587-a171-4ddd20b403e0")
+		(uuid "6924cc87-3e1e-4546-845f-eca94f86e677")
+	)
+	(wire
+		(pts
+			(xy 147.32 119.38) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a83b216-73d5-425e-befa-309871045e73")
 	)
 	(wire
 		(pts
@@ -1357,23 +1554,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 144.78 55.88)
+			(xy 147.32 111.76) (xy 149.86 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c74358-6ac0-48e3-bc52-6278bcef47b0")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a695bfb3-3f75-4eaf-a713-939b8a449e17")
-	)
-	(wire
-		(pts
-			(xy 142.24 74.93) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6cf3bc8-a67f-44a7-9d08-71a7f770025f")
 	)
 	(wire
 		(pts
@@ -1407,6 +1604,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 68.58) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef222d64-c3dd-442d-b543-e581a896b44d")
+	)
+	(wire
+		(pts
 			(xy 154.94 55.88) (xy 157.48 55.88)
 		)
 		(stroke
@@ -1424,6 +1631,26 @@
 			(type default)
 		)
 		(uuid "fa2b3472-9856-4db3-91e2-6e70a6f5322f")
+	)
+	(wire
+		(pts
+			(xy 154.94 119.38) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc08798a-0797-490c-98c6-1c796396e9cb")
+	)
+	(wire
+		(pts
+			(xy 154.94 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe569d1b-59c9-4294-b7a7-e6bce2c3bc40")
 	)
 	(global_label "Switch19"
 		(shape input)
@@ -3025,29 +3252,6 @@
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 156.21 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f741ba70-c2fe-4f13-bde9-ed181a708fe0")
-		(property "Netclass" "Power"
-			(at 156.8196 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "itsdmd:nice_nano")
 		(at 242.57 53.34 0)
@@ -4323,6 +4527,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 149.86 55.88 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4330,7 +4535,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604ea4f3")
 		(property "Reference" "SW_RST1"
-			(at 149.86 48.641 0)
+			(at 149.86 63.119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +4543,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 149.86 50.9524 0)
+			(at 149.86 60.8076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4551,7 @@
 			)
 		)
 		(property "Footprint" "itsdmd:SW-T_SPST_TL3342"
-			(at 149.86 50.8 0)
+			(at 149.86 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 50.8 0)
+			(at 149.86 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,32 +4705,32 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 149.86 74.93 270)
+		(at 149.86 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3dfe8b52-7937-4b22-92de-c6a35a00494d")
 		(property "Reference" "BT1"
-			(at 151.7015 67.31 90)
+			(at 151.384 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 151.7015 69.85 90)
+		(property "Value" "B1"
+			(at 151.13 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "itsdmd:Battery_Pads-dual-side"
-			(at 151.384 74.93 90)
+			(at 151.384 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.384 74.93 90)
+			(at 151.384 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4748,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 149.86 74.93 0)
+			(at 149.86 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,8 +4772,84 @@
 		)
 	)
 	(symbol
+		(lib_id "itsdmd:TP4056_Module_Mini")
+		(at 151.13 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46821b18-a9fa-4438-9029-b307a0e8b551")
+		(property "Reference" "T1"
+			(at 154.94 84.4549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 154.94 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "itsdmd:Module_TP4056_Mini-SMD_Interface"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cca1901b-5220-410a-8113-4f83fa912692")
+		)
+		(pin "1"
+			(uuid "2cf05e96-c04d-40f7-afbc-ff4c8d171e53")
+		)
+		(pin "2"
+			(uuid "b187d10a-ebb1-4623-a625-eeb7a38fba19")
+		)
+		(pin "3"
+			(uuid "485f8e05-42c3-4d39-91fe-afb0fcd877d1")
+		)
+		(instances
+			(project ""
+				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 139.7 120.65 0)
+		(at 25.4 114.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4577,7 +4858,7 @@
 		(fields_autoplaced yes)
 		(uuid "5344d5ca-cab1-4c20-b096-c6bae07ed3c6")
 		(property "Reference" "H2"
-			(at 142.24 119.3799 0)
+			(at 27.94 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4867,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 142.24 121.9199 0)
+			(at 27.94 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4876,7 @@
 			)
 		)
 		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
-			(at 139.7 120.65 0)
+			(at 25.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 120.65 0)
+			(at 25.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4894,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 139.7 120.65 0)
+			(at 25.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4913,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 139.7 133.35 0)
+		(at 107.95 114.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4641,7 +4922,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e0d73b0-c436-43cd-8103-e859d6c7effb")
 		(property "Reference" "H4"
-			(at 142.24 132.0799 0)
+			(at 110.49 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4931,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 142.24 134.6199 0)
+			(at 110.49 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
-			(at 139.7 133.35 0)
+			(at 107.95 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 133.35 0)
+			(at 107.95 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4958,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 139.7 133.35 0)
+			(at 107.95 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,35 +4976,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 139.7 114.3 0)
+		(lib_id "Device:Battery_Cell")
+		(at 149.86 119.38 270)
+		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8950f701-61ca-465b-b841-5811cb2724b7")
-		(property "Reference" "H1"
-			(at 142.24 113.0299 0)
+		(uuid "879a315c-38d3-4377-b117-ff76d7794a5d")
+		(property "Reference" "BT2"
+			(at 151.384 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 142.24 115.5699 0)
+		(property "Value" "B1"
+			(at 151.13 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
-			(at 139.7 114.3 0)
+		(property "Footprint" "itsdmd:Battery_Pads-dual-side"
+			(at 151.384 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +5012,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 114.3 0)
+			(at 151.384 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 149.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc46ebbd-cbdd-4339-a192-2e5b799626b7")
+		)
+		(pin "2"
+			(uuid "6a1eceb7-22f3-46db-8d8f-d3e2d90921bf")
+		)
+		(instances
+			(project "chocowi36"
+				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 33.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8950f701-61ca-465b-b841-5811cb2724b7")
+		(property "Reference" "H1"
+			(at 29.21 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +5091,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 139.7 114.3 0)
+			(at 26.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,6 +5486,83 @@
 		)
 	)
 	(symbol
+		(lib_id "itsdmd:TP4056_Module_Mini")
+		(at 151.13 102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2431e1c-6d2b-4e3b-a00f-73a6e4ce6727")
+		(property "Reference" "T2"
+			(at 154.94 103.5051 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 154.94 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "itsdmd:Module_TP4056_Mini-SMD_Interface"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f4072fc-a975-46c1-8894-1b3ad47d8f27")
+		)
+		(pin "1"
+			(uuid "0aea567b-356b-4959-ac99-233587e2e3ed")
+		)
+		(pin "2"
+			(uuid "a920048d-5aca-4d1e-9452-88b0caf1890d")
+		)
+		(pin "3"
+			(uuid "8d93d5bc-d9be-4252-bd3a-23237810e3ef")
+		)
+		(instances
+			(project "chocowi36"
+				(path "/138ac5cf-3e33-4feb-8abf-7337ff3a2f49"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "itsdmd:nice_nano")
 		(at 242.57 96.52 0)
 		(unit 1)
@@ -5271,6 +5698,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 149.86 44.45 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5278,7 +5706,7 @@
 		(dnp no)
 		(uuid "e69d6d73-9479-4720-9b05-1f17c2439884")
 		(property "Reference" "SW_RST2"
-			(at 149.86 37.211 0)
+			(at 149.86 51.689 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5714,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 149.86 39.5224 0)
+			(at 149.86 49.3776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5722,7 @@
 			)
 		)
 		(property "Footprint" "itsdmd:SW-T_SPST_TL3342"
-			(at 149.86 39.37 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 39.37 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5765,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 139.7 127 0)
+		(at 90.17 31.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5346,7 +5774,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0a0486f-abcf-4335-84a1-8bd2e7d8ad95")
 		(property "Reference" "H3"
-			(at 142.24 125.7299 0)
+			(at 92.71 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5783,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 142.24 128.2699 0)
+			(at 92.71 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5792,7 @@
 			)
 		)
 		(property "Footprint" "itsdmd:MountingHole_2.2mm_M2"
-			(at 139.7 127 0)
+			(at 90.17 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 127 0)
+			(at 90.17 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5810,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 139.7 127 0)
+			(at 90.17 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
